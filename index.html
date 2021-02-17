@@ -12,11 +12,28 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
+    <main>
+      <div id="buttons-container" class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" id="btn-generate">
+              Generate Die
+            </button>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" id="btn-roll">
+              Roll Dice
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="dice-container" class="container-fluid"></div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="app.js"></script>
   </body>
 </html>

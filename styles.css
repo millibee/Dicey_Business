@@ -1,0 +1,20 @@
+body {
+    margin-top: 2em;
+    user-select: none;
+}
+
+#buttons-container {
+    width: 60%;
+}
+
+#dice-container {
+    width: 60%;
+}
+
+.die {
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    line-height: .65;
+    cursor: pointer;
+}
